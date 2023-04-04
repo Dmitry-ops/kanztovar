@@ -1,0 +1,11 @@
+.content img{
+    position: relative; 
+    height: 50px;
+    width: 150px;
+    
+}
+
+.item {
+    list-style-type: armenian;
+}
+

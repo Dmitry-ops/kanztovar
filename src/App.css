@@ -11,27 +11,19 @@
   /* grid-gap: 10px; */
 }
 
-.header{
-  grid-area: h;
-  background-color: bisque;
-}
-
-.header img{
-  width: 60px;
-}
-
-.nav{
-  grid-area: n;
-  background-color: burlywood;
-}
-
-.content{
-  grid-area: c;
-  background-color: aquamarine;
-}
-.content img{
-  /* min-width: 150px; */
-  height: 250px;
-  aspect-ratio: 25/5;
+.app-wrapper-content {
+    grid-area: c;
+    background-color: khaki;
+  }
   
-}
+  /* .content img {
+     min-width: 150px; 
+    height: 250px;
+    aspect-ratio: 25/5;
+  
+  } */
+  
+  /* .item {
+    color: red;
+  } */
+
