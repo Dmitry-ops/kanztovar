@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './News.module.css';
 
-function Actual(props: any) {
+export const Actual = (props) => {
   return (
     <div className={s.content}>
           <img src={props.IMG}/>
@@ -17,4 +17,3 @@ function Actual(props: any) {
   );
 }
 
-export default Actual;

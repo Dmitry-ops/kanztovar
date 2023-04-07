@@ -1,21 +1,21 @@
 .nav {
   grid-area: n;
   background-color: burlywood;  
-  
 }
 
-.item{
-  padding-left: 20px;
-  padding-top: 5px;
-}
+
 
 .item a {
   color: white;
   text-decoration: none;
+  padding: 5px;
 }
-.item a.activeLink {
+
+.activeLink {
   color: gold;
+  text-decoration: none;
 }
+
 
 .item a:hover {
   color: black;

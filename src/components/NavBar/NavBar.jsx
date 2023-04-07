@@ -6,16 +6,16 @@ export const NavBar = () => {
   return (
     <nav className={s.nav}>
       <div className={s.item}>
-        <NavLink to='/profile' activeClassName = {s.activeLink}>Главная</NavLink>
+        <NavLink to='/profile' className = {s.activeLink}>Главная</NavLink>
+      </div>
+      <div className={s.item + '' + s.activeLink}>
+        <NavLink to='/messages' className = {s.activeLink}>Сообщения</NavLink>
       </div>
       <div className={s.item}>
-        <NavLink to='/messages' activeClassName = {s.activeLink}>Сообщения</NavLink>
+        <NavLink to='/news' className = {s.activeLink}>Новости</NavLink>
       </div>
       <div className={s.item}>
-        <NavLink to='/news' activeClassName = {s.activeLink}>Новости</NavLink>
-      </div>
-      <div className={s.item}>
-        <NavLink to='/contacts' activeClassName = {s.activeLink}>Контакты</NavLink>
+        <NavLink to='/contacts' className = {s.activeLink}>Контакты</NavLink>
       </div>
     </nav>
   );
